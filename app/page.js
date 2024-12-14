@@ -1,13 +1,15 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-sky-100 to-white">
       <div className="container mx-auto px-4 py-16 max-w-4xl">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold text-sky-900 mb-4">
-            Trường THPT Nguyễn Huệ - Bến Tre 
+            Trường THPT Nguyễn Huệ
           </h1>
           <p className="text-xl md:text-2xl text-sky-700 italic">
-            "Hành trình giáo dục của tương lai"
+            &quot;Hành trình giáo dục của tương lai&quot;
           </p>
         </div>
 
@@ -36,7 +38,7 @@ export default function Home() {
           <div className="space-y-2 text-gray-600">
             <p>📍 Xã Tiên Thủy, Huyện Châu Thành, Tỉnh Bến Tre</p>
             <p>📧 admin@nh.edu.vn</p>
-            <p>📞 0275.3867.348</p>
+            <p>📞 0275.3867.XXX</p>
           </div>
         </div>
       </div>
